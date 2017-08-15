@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style: none;
+}
+
+button{
+    border:none;
+    background: #e3a82a;
+    color:#fff;
+    font-size:16px;
+    border-radius:3px;
+    cursor:pointer;
+}
+.head{
+    background:#528CE0;
+    padding:40px 0 20px;
+}
+.head h1{
+    color:#fff;
+    text-align: center;
+}
+.head p{
+    text-align: right;
+}
+.head button{
+    padding:4px 20px;
+}
+.list .button{
+    width:40px;
+    margin-right:16px;
+    font-size: 14px;
+}
+.button span{
+    border:solid 1px #ccc;
+    border-radius:3px;
+    display: inline-block;
+    text-align: center;
+    padding:8px 0;
+    width:100%;
+}
+.button span:hover{
+    background: #ddd;
+    cursor:pointer;
+}
+.button span.down{
+    margin-top:10px;
+}
+.content{
+    flex:1;
+}
+.list,.head p,.form{
+    width:600px;
+    margin:0 auto;
+}
+.list li{
+    display: flex;
+    margin:24px 0;
+}
+.form input,.form textarea{
+    width:100%;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    padding:8px;
+    line-height:24px;
+    font-size: 16px;
+}
+.form,.list{
+    margin-top:32px;
+}
+.form label{
+    line-height:30px;
+}
+.form input{
+    height:30px;
+}
+.form textarea{
+    resize: none;
+    margin-top:16px;
+}
+.form .option{
+    text-align: right;
+    margin-top:8px;
+}
+.form button{
+    padding:4px 16px;
+    margin-left:8px;
+}
+.form button.cancel{
+    background:none;
+    color:#333;
+    border:solid 1px #ccc;
+}
