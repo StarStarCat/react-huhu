@@ -1,4 +1,6 @@
-# 忽略 node_moudles/ 目录下的所有文件
 
+# 忽略 node_modules/ 目录下的所有文件
 node_modules
+
+# 忽略ws生成文件
 .idea/
